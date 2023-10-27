@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style:none;
+    font-family: 'Kaushan Script';
+    font-size: 15;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+header{
+    width: 100%;
+    align-items: center;
+    padding: 0 12em;
+    height: 12vh;
+    color: #100D09;;
+    background: linear-gradient(113deg, #EC9F05 16.17%, rgba(255, 78, 0, 0.92) 95.64%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #100D09;
+}
+h1{
+    color: #000;
+
+    font-family: 'Kaushan Script';
+    font-size: 35px;
+    font-style: normal;
+
+}
+ul{
+    display: flex;
+    gap: 10em;
+    
+}
+#inicio {
+    height: 88vh;
+    background: linear-gradient(113deg, #EC9F05 16.17%, rgba(255, 78, 0, 0.92) 95.64%);
+    display: flex;
+    justify-content: space-around;
+
+}
+.inicio__pizza {
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    padding: 0 25px;
+}
+h2 { font-size: 35px;
+    font-family: 'Bebas Neue', sans-serif; ;
+    
+
+}
+    
+
+
+
+
+p{
+    text-align: justify;
+    font-size:24px ;
+    font-family: 'Bebas Neue', sans-serif; ;
+
+}
+#cardapio{
+
+    background-color:#ffc84c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 2em;
+   
+    
+}
+.titulo__cardapio{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 55px;
+}
+table{
+   
+    border: 5px solid;
+    
+}
+thead{
+    background-color: #fcca55;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+   
+    
+    
+    
+    
+}
+th{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    padding: 10px 0;
+
+}
+.img_pizzas{
+    border-radius: 10px;
+    padding: 5px 0;
+    
+}
+
+#cadastro{
+    background-color: #ffc79c;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+h3{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 35px;
+
+
+}
+#nome{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size:25px ;
+    margin: 15px 0;
+    
+    
+}
+
+#email {font-family: 'Bebas Neue', sans-serif;
+    font-size:25px ;
+    margin: 15px 0;
+
+}
+
+#senha {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size:25px ;
+    margin: 15px 0;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 300px; /* Define a largura do input */
+    height: 40px; /* Define a altura do input */
+   
+}
+label {
+    padding-right: 5px;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+    width: 200px; /* Define a largura do botão */
+    height: 50px; /* Define a altura do botão */
+    font-size: 16px; /* Define o tamanho da fonte no botão */
+    align-self: center;
+
+}
+
+.fatia_pizza{
+    
+    height: 100%;
+    object-fit: cover;
+    padding-bottom: 150px;
+    
+}
+
+@media (max-width:360px) {
+    h2{
+        font-size: 120px;
+    }
+}
